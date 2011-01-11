@@ -1,0 +1,25 @@
+= oa-blip
+
+blip.pl authorization strategy for OmniAuth
+
+== Installation
+
+  gem install oa-blip
+
+Add to config/initializers/omniauth.rb:
+
+=== Rails 3
+
+  Rails.application.config.middleware.use OmniAuth::Builder do
+    provider :blip, <Application Key>, <Application Secret>
+  end
+
+=== Rails 2
+
+  ActionController::Dispatcher.middleware.use "OmniAuth::Builder" do
+    provider :blip, <Application Key>, <Application Secret>
+  end
+
+== Copyright
+
+Copyright (c) 2011 Michał Łomnicki. See LICENSE for details.
