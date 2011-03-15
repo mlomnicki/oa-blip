@@ -20,6 +20,11 @@ Add to config/initializers/omniauth.rb:
     provider :blip, <Application Key>, <Application Secret>
   end
 
+== Contributors
+
+* Michał Łomnicki - http://mlomnicki.com
+* Darek Gertych - https://github.com/chytreg
+
 == Copyright
 
 Copyright (c) 2011 Michał Łomnicki. See LICENSE for details.
