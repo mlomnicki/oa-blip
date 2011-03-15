@@ -6,8 +6,8 @@ Gem::Specification.new do |s|
   s.name        = "oa-blip"
   s.version     = Oa::Blip::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Michał Łomnicki"]
-  s.email       = ["michal.lomnicki@gmail.com"]
+  s.authors     = ["Michał Łomnicki", "Darek Gertych"]
+  s.email       = ["michal.lomnicki@gmail.com", "dariusz.gertych@gmail.com"]
   s.homepage    = "https://github.com/mlomnicki/oa-blip"
   s.summary     = %q{OmniAuth strategy for blip.pl OAuth}
   s.description     = %q{OmniAuth strategy for blip.pl OAuth}
