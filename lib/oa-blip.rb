@@ -10,9 +10,8 @@ module OmniAuth
       #
       #    use OmniAuth::Strategies::Blip, 'consumerkey', 'consumersecret'
       #
-      def initialize(app, consumer_key, consumer_secret, options = {}, &block)
-        options.merge!({:site => 'http://blip.pl'})
-        super(app, :blip, consumer_key, consumer_secret, options)
+      def initialize(app, consumer_key = nil, consumer_secret = nil, options = {}, &block)
+        super(app, :blip, consumer_key, consumer_secret, { :site => 'http://blip.pl' }, options)
       end
 
       def auth_hash
